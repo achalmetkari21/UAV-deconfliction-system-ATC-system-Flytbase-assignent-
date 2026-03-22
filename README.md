@@ -50,6 +50,6 @@ streamlit run infrared-station/atc_dashboard/dashboard.py
 
 ---
 
-## Author- Achal metkari
+## Author- 
 
 Achal Metkari
