@@ -75,6 +75,74 @@ pip install -r requirements.txt
 streamlit run infrared-station/atc_dashboard/dashboard.py
 
 ---
+## How to Use
+
+1. Run the application using Streamlit:
+   streamlit run infrared-station/atc_dashboard/dashboard.py
+
+2. Once executed, the application will automatically open in your default browser.
+   If it does not open, check the terminal for a message like:
+
+   Local URL: http://localhost:8501
+
+   Copy and paste this URL into your browser.
+
+---
+
+### Dashboard Interaction
+
+After opening the dashboard:
+
+1. Locate the control panel (usually on the left sidebar).
+
+2. Start the simulation:
+
+   * Click on the **Start / Run Simulation** button (if available)
+   * This initializes multiple drones in the airspace
+
+3. Observe the visualization:
+
+   * Drones will appear moving along predefined or generated paths
+   * Each drone represents an independent agent in the system
+
+4. Monitor conflict detection:
+
+   * The system continuously checks for path overlaps
+   * Potential conflicts (collisions) are identified in real time
+
+5. Analyze system behavior:
+
+   * Observe how trajectories are adjusted to avoid collisions
+   * Watch how the system maintains safe distance between drones
+
+---
+
+### Experiment with Scenarios
+
+You can test different conditions to evaluate performance:
+
+* Increase the number of drones (if configurable in UI or code)
+* Modify paths or scenarios from the configuration files
+* Run dense traffic scenarios to observe system limits
+
+---
+
+### What to Look For
+
+While running the simulation, focus on:
+
+* Smooth drone movement and trajectory visualization
+* Detection of potential collision points
+* System response in avoiding conflicts
+* Overall stability with multiple drones
+
+---
+
+### Notes
+
+* Ensure all dependencies are installed before running the project
+* For better performance, run on a system with sufficient resources when simulating many drones
+
 
 ## System Architecture
 
